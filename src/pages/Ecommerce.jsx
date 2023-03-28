@@ -125,11 +125,11 @@ const Ecommerce = () => {
             style={{ backgroundColor: currentColor }}
           >
             <div className="flex justify-between items-center ">
-              <p className="font-semibold text-white text-2xl">Earnings</p>
+              <p className="font-semibold text-black text-2xl">Earnings</p>
 
               <div>
-                <p className="text-2xl text-white font-semibold mt-8">$63,448.78</p>
-                <p className="text-gray-200">Monthly revenue</p>
+                <p className="text-2xl text-black font-semibold mt-8">$63,448.78</p>
+                <p className="text-black -200">Monthly revenue</p>
               </div>
             </div>
 
@@ -308,11 +308,12 @@ const Ecommerce = () => {
               alt=""
             />
             <div className="mt-8">
-              <p className="font-semibold text-lg">React 18 coming soon!</p>
-              <p className="text-gray-400 ">By Johnathan Doe</p>
+              <p className="font-semibold text-lg">Introducing ChatGPT!</p>
+              <p className="text-gray-400 ">By OpenAI</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+                ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.
+                We are excited to introduce ChatGPT to get users feedback and learn about its strengths and weaknesses. During the research preview,
+                usage of ChatGPT is free.
               </p>
               <div className="mt-3">
                 <Button
